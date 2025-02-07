@@ -1,22 +1,22 @@
-import './App.css';
-import Header from './components/Header';
-import Home from './components/Home'; 
-import About from './components/About'; 
-import Projects from './components/Projects';
-import Contact from './components/Contact'; 
-import Footer from './components/Footer'; 
+// In App.js
+import React from "react";
+export function App() {
+  const [data, setData] = useState(null);
 
-function App() {
+  useEffect(() => {
+    // Fetch data (or some other asynchronous operation)
+    fetch('/api/data')
+      .then(res => res.json())
+      .then(data => setData(data));
+  }, []);
+
+  if (!data) {
+    return <div>Loading...</div>; // Show loading message while data is fetching
+  }
+
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+    <div>
+      {/* ... rest of your component ... */}<div>loadingab............</div>
     </div>
   );
 }
-
-export default App;
