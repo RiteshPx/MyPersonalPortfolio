@@ -1,6 +1,7 @@
 // In App.js
-import React from "react";
-export function App() {
+import React, { useEffect, useState } from "react";
+
+ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -20,3 +21,5 @@ export function App() {
     </div>
   );
 }
+
+export default App;
