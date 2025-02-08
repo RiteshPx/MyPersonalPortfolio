@@ -1,6 +1,6 @@
 import React from "react";
 import HighlightText from "../subComponents/HighlightText";
-import img from "../assets/ritesh.png";
+import img from "../assets/images/ritesh.png";
 
 
 function About() {

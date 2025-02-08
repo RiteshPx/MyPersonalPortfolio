@@ -1,23 +1,21 @@
-// In App.js
-import React, { useEffect, useState } from "react";
+import './App.css';
+import Header from './components/Header';
+import Home from './components/Home'; 
+import About from './components/About'; 
+import Projects from './components/Projects';
+import Contact from './components/Contact'; 
+import Footer from './components/Footer'; 
 
- function App() {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    // Fetch data (or some other asynchronous operation)
-    fetch('/api/data')
-      .then(res => res.json())
-      .then(data => setData(data));
-  }, []);
-
-  if (!data) {
-    return <div>Loading...</div>; // Show loading message while data is fetching
-  }
+function App() {
 
   return (
-    <div>
-      {/* ... rest of your component ... */}<div>loadingab............</div>
+    <div className="App bgimg">
+      <Header />
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
