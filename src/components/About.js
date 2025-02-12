@@ -2,7 +2,6 @@ import React from "react";
 import HighlightText from "../subComponents/HighlightText";
 import img from "../assets/images/ritesh.png";
 
-
 function About() {
   return (
     <section id="about" >
@@ -10,7 +9,7 @@ function About() {
       <div className="bg-gray-900 p-2 rounded-xl shadow-lg">
         <h2 className="text-red-500 text-3xl font-bold mb-2">About Me</h2>
         <p className="text-gray-400 text-center">Professional Profile - There Is All About Me</p>
-        <h2 className="text-red-500 text-2xl">...</h2>
+        <h2 className="text-red-500 text-2xl font-extrabold">. . .</h2>
         <div className="flex flex-col md:flex-row items-center mt-6 text-start ">
           <div className="w-full md:w-1/3 flex justify-center mb-8 md:mb-0">
             <img src={img} alt="Profile" className="h-48 w-48 md:h-80 md:w-80 rounded-full shadow-lg mx-11" />
@@ -19,7 +18,7 @@ function About() {
             <h3 className="text-2xl font-semibold border-b ">I'm <span className="text-white">Ritesh Parmar</span>,</h3>
             <p className="text-gray-400 mt-2  leading-relaxed">
               a programming enthusiast with an interest in building software products. Currently, I'm pursuing Btech. in Computer Science & Engineering. My journey in the field of programming started in 2019 when I was introduced to the world of programming through my college curriculum.
-            </p>
+        </p>
             <p className="text-gray-400 mt-4 leading-relaxed">              
               I started my journey by learning <HighlightText>C/C++</HighlightText>. Later on, I started exploring full stack development using Javascript. Meanwhile, I got well acquainted with the <HighlightText>MERN</HighlightText> stack by working on and developing a couple of projects.
             </p>
@@ -31,7 +30,7 @@ function About() {
               <p><span className="text-red-400">📍 Address:</span> Indore, Madhya Pradesh</p>
               <p><span className="text-red-400">📧 Email:</span> parmaritesh17@gmail.com</p>
               <p><span className="text-red-400">🗣 Spoken Languages:</span> English - Hindi</p>
-              <p><span className="text-red-400">💬 Skype:</span> no</p>
+              <p><span className="text-red-400">💬 Skype:</span> live:.cid.262bbee9c1de2ec1</p>
             </div>
           </div>
         </div>

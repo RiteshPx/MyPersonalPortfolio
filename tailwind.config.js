@@ -15,7 +15,12 @@ export default {
         onyx: '#353535',
         jet: '#000000',
 
-      }
+      },
+      fontFamily: {
+        'kaushan': ['Kaushan Script', 'cursive'],
+        'lobster': ['Lobster', 'cursive'], // 'lobster' is your custom name
+         // 'kaushan' is your custom name
+      },
     },
   },
 

@@ -11,7 +11,7 @@ return (
             {projects.map((project, index) => (
                 <div
                     key={index}
-                    className="max-w-md w-full bg-white shadow-lg rounded-2xl p-6 border border-gray-200 transform transition duration-500 hover:scale-105"
+                    className={`max-w-md w-full bg-white shadow-lg rounded-2xl p-6 border border-gray-200 transform transition duration-500 hover:scale-105`}
                 >
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">{project.title}</h2>
                     <img src={project.image} alt="imageProject" className="w-full h-48 object-cover rounded-md mb-4" />

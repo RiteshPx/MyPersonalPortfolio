@@ -1,5 +1,6 @@
 import React from "react";
 import edtech from "../images/edtechImage.png"
+import stylescan from "../images/stylescan.png"
 export const MajorProjects = [
     {
       title: "📚 EdTech Platform",
@@ -27,13 +28,5 @@ export const MajorProjects = [
       githubLink: "https://github.com/username/stylescan",
       demoLink: "https://username.github.io/stylescan"
     },
-    {
-      title: "🌐 Another Project",
-      description: "This is another awesome project description.",
-      features: ["Feature 1", "Feature 2", "Feature 3"],
-      techStack: "Tech Stack for this project",
-      image: edtech,
-      demoLink: "https://another-project-demo-link.com",
-      githubLink: ""
-    },
+    
   ];
