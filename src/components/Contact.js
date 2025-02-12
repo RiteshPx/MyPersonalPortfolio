@@ -5,7 +5,7 @@ import SocialLinks from "../subComponents/SocialLinks";
 
 function Contact() {
   return (
-    <section id="contact" className="w-full mt-36 h-screen flex flex-col justify-center items-center bg-gray-900">
+    <section id="contact" className="w-full mt-36 h-screen flex flex-col justify-center items-center bg-gray-900 min-h-screen">
       <div className="container mx-auto px-4 w-2/3 mb-10">
         <h2 className="text-3xl font-bold text-white mb-6 text-center">Summary</h2>
         <div className="flex flex-col md:flex-row items-center bg-gray-800 p-6 rounded-lg shadow-lg">
